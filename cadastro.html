@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>simulados</title>
+  <link rel="stylesheet" href="style-cad.css">
+  <link rel="shortcut icon" href="icones/favicon-16x16.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <header>
+    <h1>Simulador De Cronogramas</h1>
+  </header>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="contato.html">Contato</a>
+    <a href="#sobre">Sobre</a>
+    <a href="login.html" class="right">Login</a>
+  </div>
+  <form>
+    <div class="container">
+      <h1>Registro</h1>
+      <p>Por favor preencha os campos a baixo</p>
+      <hr>
+      <label for="email"><b>Nome</b></label>
+      <input type="text" placeholder="Enter name" name="name" id="name" required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+      <label for="psw"><b>Senha</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+      <label for="psw-repeat"><b>Repita sua senha </b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required><br>
+      <h3>Qual seu objetivo?</h3>
+      <select name="cars" id="cars">
+        <option value="saab">Provas/simulados escolares</option>
+        <option value="mercedes">Vestibular</option>
+        <option value="audi">Rotina de estudos</option>
+      </select>
+      <hr>
+      <button onclick="funçao1()" type="submit" class="registerbtn"><a href="login.html">Registrar</a></button>
+    </div>
+    <script>
+      function funçao1() {
+        alert("Registro Realizado!")
+      }
+    </script>
+    <div class="container signin">
+      <p class="p-cor">Ja possui uma conta? <a href="login.html">login</a>.</p>
+    </div>
+  </form>
+  <footer>
+    <h2 id="sobre">Sobre</h2>
+    <p>Pagina de cunho educacional que tem como objetivo auxiliar os estudantes com suas dificuldades acadêmicas,
+      buscando desenvolver rotinas de estudo atravez de simulados e questionários que visam medir o nivel de
+      conhecimento do estudante para que os mesmo alcancem boa performace diante de vestibulares e concursos.</p>
+    <nav id="contatos">
+      <a href="https://www.instagram.com/" target="_blank"><img class="logo" src="icones/instagram.svg"
+          alt="logo instagram"></a>
+      <a href="https://www.facebook.com/login/" target="_blank"><img class="logo" src="icones/facebook.svg"
+          alt="logo facebook"></a>
+      <a href="https://wa.me/5561994070702" target="_blank"><img class="logo" src="icones/square-whatsapp.svg"
+          alt="logo whatsapp"></a>
+      <a href="https://twitter.com/i/flow/login" target="_blank"><img class="logo" src="icones/twitter.svg"
+          alt="logo twitter"></a>
+    </nav>
+  </footer>
+</body>
+
+</html>
+
+</body>
+
+</html>
